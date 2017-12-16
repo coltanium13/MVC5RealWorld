@@ -13,7 +13,7 @@ namespace MVC5RealWorld.Controllers
         }
 
         [HttpPost]
-        public ActionResult SignUp(UserModel.UserSignUpView USV)
+        public ActionResult SignUp(UserSignUpView USV)
         {
             if (ModelState.IsValid)
             {

@@ -2,7 +2,7 @@
 using System.Linq;
 using MVC5RealWorld.Models.DB;
 using MVC5RealWorld.Models.ViewModel;
-using static MVC5RealWorld.Models.ViewModel.UserModel;
+using static MVC5RealWorld.Models.ViewModel.UserSignUpView;
 
 namespace MVC5RealWorld.Models.EntityManager
 {
