@@ -142,6 +142,8 @@
     <Compile Include="Models\DB\SYSUserRole.cs">
       <DependentUpon>DemoModel.tt</DependentUpon>
     </Compile>
+    <Compile Include="Models\EntityManager\UserManager.cs" />
+    <Compile Include="Models\ViewModel\UserModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
