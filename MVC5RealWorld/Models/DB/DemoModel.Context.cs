@@ -31,5 +31,7 @@ namespace MVC5RealWorld.Models.DB
         public virtual DbSet<SYSUserRole> SYSUserRoles { get; set; }
 
         public System.Data.Entity.DbSet<MVC5RealWorld.Models.ViewModel.UserSignUpView> UserSignUpViews { get; set; }
+
+        public System.Data.Entity.DbSet<MVC5RealWorld.Models.ViewModel.UserLoginView> UserLoginViews { get; set; }
     }
 }
